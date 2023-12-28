@@ -181,6 +181,7 @@ function stopGame(){
 
 }
 
+//function to upadte highscore
 function updateHighScore(){
     const currentScore=snake.length-1;
     if(currentScore>highScore){
